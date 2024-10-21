@@ -18,13 +18,7 @@ The data used in this project is sourced from customer database and is stored in
 
 ## High level requirements
 ### Data modeling
-- Data extraction - from SQL-Structured Querry Language [DOWNLOAD HERE] (https://1drv.ms/w/s!ApWnci176Rvogx7ot_oLHxoFDL0c?e=vUtqeh)
-  
-
-
-
-
-
+- Data extraction - from SQL-Structured Querry Language [DOWNLOAD HERE](https://1drv.ms/w/s!ApWnci176Rvogx7ot_oLHxoFDL0c?e=vUtqeh)
 - Data importation- to Power BI 
 - Data validation and  transformation- Fit and ready for analysis
 
@@ -35,11 +29,20 @@ The data used in this project is sourced from customer database and is stored in
 - Customer analysis-(sub tasks -by product categories, by province)
 - Visualization/Dashboard
 
+### Exploratory Data Analysis
+#### EDA involved exploring the Data to answer the following questions
+  1.  What is the sales trend in all the Provinces
+  2.  What is the Revenue trend in all the Provinces
+  3.  Which are the Top 5 Provinces by Sales/Revenue
+  4.  What are the Customer Categories
+  5.  Which are the top 2 Customer Categories in each of the 5 Provinces
+  6  What is Population by Province
+
 ### Forecasting
 - 3 year revenue forecast -for entire 49 districts 
 - Top Selling  Provinces (3 year forecast)
 - Market trend analysis- Periodic trend analysis
-- 
+  
 ### Business Process Flow
 - Current state of business Process flow 
 - Define Process steps
