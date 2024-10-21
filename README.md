@@ -10,4 +10,8 @@ The data used in this project is sourced from customer database and is stored in
 
 ## Tools
 ### Agile Methodologies was used in this Project
-Confluence -Project planning, collaboration within team, documentation -Jira-project management, reporting and tracking. -SQL-Data analysis and Investigate relationship between data. -Power BI-Data analysis, modeling, visualization and reporting. -Draw.io- Business process flow chart.
+- Confluence -Project planning, collaboration within team, documentation 
+- Jira-project management, reporting and tracking
+- SQL-Data analysis and Investigate relationship between data
+- Power BI-Data analysis, modeling, visualization and reporting
+- Draw.io- Business process flow chart.
