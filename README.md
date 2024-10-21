@@ -76,7 +76,112 @@ SELECT * FROM [Sales].[InvoiceLines]---228,265rows
 
  
 
+```SQL
+SELECT 
 
+SI.[InvoiceID] 
+
+,[OrderID]  
+
+,[CustomerID] 
+
+,[InvoiceDate] 
+
+,[Quantity] 
+
+,[StockItemID] 
+
+,[UnitPrice] 
+
+,[TaxAmount] 
+
+,[LineProfit] AS PROFIT 
+
+,[ExtendedPrice] AS SALES 
+
+,[Quantity]*[UnitPrice] AS REVENUE 
+
+  
+
+ 
+
+FROM [Sales].[Invoices]  SI 
+
+INNER JOIN[Sales].[InvoiceLines] SIL 
+
+ON SI.[InvoiceID]=SIL.[InvoiceID]
+```
+
+ 
+
+ 
+
+ 
+
+2.  The Customer Table –This was created by Left join of tables below; 
+
+```SQL
+SELECT* FROM [Sales].[Customers]-----633 ROWS 
+
+SELECT*FROM[Sales].[CustomerCategories]----8ROWS  
+
+SELECT * FROM[Sales].[CustomerTransactions]--97,147ROWS 
+
+  
+
+SELECT*FROM[Application].[Countries]---190ROWS 
+
+SELECT* FROM[Application].[Cities]----37,040ROWS 
+
+SELECT *FROM[Application].[StateProvinces]---53ROWS 
+
+SELECT*FROM[Sales].[Invoices]---70,510ROWS
+```
+
+------------------------------------------------------------------------------------- 
+```SQL
+SELECT 
+
+[CustomerID] 
+
+,[CustomerName] 
+
+,[CityID] 
+
+,[CityName] 
+
+,AP.[StateProvinceID] 
+
+,[StateProvinceName] AS PROVINCE 
+
+,AP.[LatestRecordedPopulation] 
+
+,[SalesTerritory] 
+
+,SCC.[CustomerCategoryID] 
+
+,[CustomerCategoryName] 
+
+  
+
+FROM[Sales].[Customers] SC 
+
+LEFT JOIN [Application].[Cities] AC 
+
+ON SC.[DeliveryCityID]=AC.[CityID] 
+
+LEFT JOIN[Sales].[CustomerCategories] SCC 
+
+ON SC.[CustomerCategoryID]=SCC.[CustomerCategoryID] 
+
+LEFT JOIN[Application].[StateProvinces] AP 
+
+ON AC.[StateProvinceID]=AP.[StateProvinceID] 
+
+```
+ 
+
+The two tables joined by the CustomerID 
  
 
 
