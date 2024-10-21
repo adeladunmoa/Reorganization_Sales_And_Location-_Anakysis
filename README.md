@@ -36,7 +36,7 @@ The data used in this project is sourced from customer database and is stored in
   3.  Which are the Top 5 Provinces by Sales/Revenue
   4.  What are the Customer Categories
   5.  Which are the top 2 Customer Categories in each of the 5 Provinces
-  6  What is Population by Province
+  6   What is Population by Province
 
 ### Forecasting
 - 3 year revenue forecast -for entire 49 districts 
@@ -55,8 +55,24 @@ The data used in this project is sourced from customer database and is stored in
 - Risk analysis
 - Rationale for sales restriction
  
+###Data Analysi-Here we have some basic codes used
+- To identify top 5 Provinces by revenue 
 
+- Top 2 Customers from each of the 5 Provinces Identified by Customer categories. 
 
+ We needed the sales table and the Customer /Location table; 
+
+ Sales Table—Sales table was created by joining the Invoice Table and the Invoice line Table using an INNER JOIN on INVOICE ID; 
+
+ 
+
+```SQL
+SELECT * FROM [Sales].[Invoices]----70,510 rows
+ ```
+
+```SQL
+SELECT * FROM [Sales].[InvoiceLines]---228,265rows
+```
 
  
 
