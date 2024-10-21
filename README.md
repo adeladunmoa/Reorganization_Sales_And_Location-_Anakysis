@@ -15,3 +15,58 @@ The data used in this project is sourced from customer database and is stored in
 - SQL-Data analysis and Investigate relationship between data
 - Power BI-Data analysis, modeling, visualization and reporting
 - Draw.io- Business process flow chart.
+
+## High level requirements
+### Data modeling
+- Data extraction - from SQL-Structured Querry Language [DOWNLOAD HERE] (https://1drv.ms/w/s!ApWnci176Rvogx7ot_oLHxoFDL0c?e=vUtqeh)
+  
+
+
+
+
+
+- Data importation- to Power BI 
+- Data validation and  transformation- Fit and ready for analysis
+
+### Data Analysis
+- Define KPI”s
+- Sales analysis -(sub task *- By Province, *by product category)
+- Revenue analysis- (sub task- *by Province, *by product categories) 
+- Customer analysis-(sub tasks -by product categories, by province)
+- Visualization/Dashboard
+
+### Forecasting
+- 3 year revenue forecast -for entire 49 districts 
+- Top Selling  Provinces (3 year forecast)
+- Market trend analysis- Periodic trend analysis
+- 
+### Business Process Flow
+- Current state of business Process flow 
+- Define Process steps
+- Analyze process performance
+- Map out process steps-Flow Diagram
+- Review and validate 
+
+### Reporting
+- SWOT analysis
+- Risk analysis
+- Rationale for sales restriction
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+ 
