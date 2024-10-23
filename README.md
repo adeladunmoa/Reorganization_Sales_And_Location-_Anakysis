@@ -2,9 +2,27 @@
 Project entails the analysis of sales, revenue for consolidation and optimization., Client is an wholesale importer and distributor of novelty goods
 
 # OUTLINE
-## [Project Overview](Project Overview)
-## [Data Source](Data Source)
+ [Project Overview](#project-overview)
+ 
+[Data Source](#data-source)
 
+[Tools](#tools)
+
+[High level requirements](#high-level-requirements)
+
+[Data modeling](#data-modeling)
+
+[Data Analysis](#data-analysis)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Forecasting](#forecasting)
+
+[Business Process Flow](#business-process-flow)
+
+[Reporting](#reporting)
+
+ 
 ## Project Overview
 Client is a wholesale importer and distributor of novelty goods operating from the United States of America. Buys novelty goods from Suppliers, Manufacturer and Wholesalers, they also engage in buying packaging materials in large quantities and warehouse. They sell to their customers via network of agents, wholesale Customers in turn resell to retail outlets across the network. Growing competition , increasing sales dynamics and rising Customer expectation  makes it imperative for the Management to embark on the project to reorganize and consolidate operations for business optimization and reduced cost of doing business
 ---
